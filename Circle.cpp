@@ -10,11 +10,13 @@ struct Circle : public Shape {
 	virtual
 	double perimeter() const {
 		// return WHAT?
+		return (6.28 * radius);
 	}
 
 	virtual
 	double area() const {
 		// return WHAT?
+		return (3.14*radius*radius);
 	}
 };
 
