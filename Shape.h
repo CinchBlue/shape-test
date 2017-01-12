@@ -27,23 +27,6 @@ class Dot : public Shape {
 
 
 
-struct Circle : public Shape {
-	int radius;
-
-	virtual
-	double perimeter() const {
-		// what's the formula?		
-	}
-
-	virtual
-	double area() const {
-		// what's the formula?		
-	}
-};
-
-
-
-
 
 
 
