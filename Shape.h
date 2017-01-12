@@ -1,7 +1,7 @@
 #ifndef SHAPE_H
 #define SHAPE_H
 
-class Shape {
+struct Shape {
 	virtual ~Shape() {}
 
 	virtual double perimeter() const = 0;
@@ -19,5 +19,36 @@ class Dot : public Shape {
 		return 0;
 	}
 };
+
+
+
+
+
+
+
+
+struct Circle : public Shape {
+	int radius;
+
+	virtual
+	double perimeter() const {
+		// what's the formula?		
+	}
+
+	virtual
+	double area() const {
+		// what's the formula?		
+	}
+};
+
+
+
+
+
+
+
+
+
+
 
 #endif // SHAPE_H
